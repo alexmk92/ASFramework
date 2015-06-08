@@ -1,0 +1,21 @@
+# Restrict the maximum upload size to 32MB
+php_value upload_max_filesize 32000000000
+php_value post_max_size 32000000000
+
+# Compensate for slow connection times, otherwise video uploads may not complete
+php_value max_execution_time 999999999
+php_value max_input_time 999999999
+
+
+#Force www:
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^yoursite.com [NC]
+RewriteRule ^(.*)$ http://www.yoursite.com/$1 [L,R=301,NC]
+
+RewriteCond %{HTTP_HOST} ^admin.yoursite.com [NC]
+RewriteRule ^(.*)$ http://www.yoursite.com/admin [L,R=301,NC]
+
+#--- Rewrite PHP files clean URL
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([A-Za-z0-9-]+)$ ?page=$1 [NC,L]
+RewriteRule ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)$ ?page=$1&id=$2 [NC,L]

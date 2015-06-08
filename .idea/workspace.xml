@@ -75,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/conf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26373628" vertical-offset="0" max-vertical-offset="820">
+            <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="820">
               <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.661157" vertical-offset="0" max-vertical-offset="520">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,6 +142,7 @@
         <option value="$PROJECT_DIR$/app/config/init.php" />
         <option value="$PROJECT_DIR$/app/config/conf.php" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -377,10 +388,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="915" y="272" width="1530" height="855" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896462" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32896462" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -496,8 +507,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/conf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26373628" vertical-offset="0" max-vertical-offset="820">
+        <state vertical-scroll-proportion="-4.137931" vertical-offset="0" max-vertical-offset="820">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.661157" vertical-offset="0" max-vertical-offset="520">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
